@@ -77,7 +77,7 @@ Think through these with your partner(s) before answering the questions below. I
 
 1. A connected graph is defined as a graph with paths between every pair of vertices. If a graph with 10 vertices has exactly 8 edges, is it possible for the graph to be connected? Explain your reasoning based on the minimum number of edges required to link all vertices.
 
-    No, this graph could not be a connected graph. At minimum, one element must be connected to all nine other elements. Therefore, there must be at least nine vertices in the graph (connecting one element to all the others). Since this graph has eight vertices, it cannot be a connected graph. Note that the total number of vertices for a connected graph with $n$ elements is $(n-1)+(n-2)+(n-3)+...+2+1=\sum_{i=1}^{n-1}{i}$. Fix the first element. Then it must be connected to the other $n-1$ elements. Then fix the second element. It is already connected to the first element, so it needs to be connected to the remaining $n-2$ elements. You can continue this trend until you get that the last two elements need to be connected together.
+    No, this graph could not be a connected graph. There are ten vertices on this graph, which means that for there to be a path between all vertices, there must be at least nine edges. Since there are eight edges on the graph, it cannot be connected.
 
 2. A tree is a connected graph with no cycles. If you take an existing tree and add exactly one new edge between two non-adjacent vertices, what structural property is immediately violated?
 
